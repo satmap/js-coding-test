@@ -37,7 +37,7 @@ This code contains the following bugs
 The code for problem set 3 can be found in the ``pset3`` folder of this repo.
 
 #### Function
-This problem set contains the same broken code from problem set 2, this code must be fixed and amended so that if more than one name of given in the promopt only the first name shall be shown.
+This problem set contains the same broken code from problem set 2, this code must be fixed and amended so that if more than one name is given in the promopt only the first name shall be shown.
 
 #### Bugs
 This code contains the following bugs

@@ -7,12 +7,12 @@ function sentenceCase(ele){
 	var text = ele.innerHTML
 	var sentences = text.split('.');
 
-	for(sentence in sentences){
+	for(sentence in sentence){
 		var value = sentences[sentence];
 		value = value.trim();
 		value = value.substr(0,1).toUpperCase() + value.substr(1,value.length);
 		sentences[sentence] = value;
 	}
 	
-	ele.innerHTML = sentences.join('. ');
+	ele.innerHTML = sentences.join('.');
 }

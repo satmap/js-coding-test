@@ -5,7 +5,7 @@ function element(ele){
 function getName(){
 	var name;
 	(function(){
-		var name = prompt('Please enter your name');
+		name = prompt('Please enter your name');
 	})();
-	element('name').innerHTML = name;
+	element('name').innerHTML = name.substr(0, name.indexOf(' '));
 }
